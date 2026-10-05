@@ -1,1 +1,3 @@
-# F50-analise-emg
+# F50-analise-emg 
+
+\# 🔬 Plataforma de Análise de Fadiga Eletromiográfica (sEMG) Web app desenvolvido em Python/Streamlit para processamento automatizado de sinais de eletromiografia de superfície (sEMG) em testes de fadiga isométrica sustentada (30 segundos a 2000 Hz). ## 🚀 Funcionalidades - Upload de arquivos \`.txt\` ou \`.csv\` contendo 8 canais de sEMG. - Remoção automática de cabeçalhos e metadados de equipamentos de aquisição. - Filtração digital de fase zero (Notch 60 Hz e Passa-banda 20-450 Hz). - Regressão linear por janelas móveis (1,0s com 50% de sobreposição) para a Frequência Mediana (MDF) e amplitude RMS. - Geração automática de relatório acadêmico em PDF e exportação de resultados em JSON/CSV. ## 🛠️ Como rodar localmente 1\. Instale as dependências: \`pip install -r requirements.txt\` 2\. Execute o app: \`streamlit run app\_streamlit\_fadiga.py
